@@ -1,4 +1,4 @@
-FROM eclipse-temurin:8-jre-focal
+FROM jruby:9.3.7
 
 RUN apt-get update -qq && \
     DEBIAN_FRONTEND=noninteractive apt-get install -yq --no-install-recommends \
